@@ -74,37 +74,90 @@
     </div>
 
     <!-- Template for two-column sections -->
-    <!-- Copy this section for each content slide -->
-    <div class="split-section">
-        <div class="content">
-            <div class="image-container">
-                <!-- Replace CONTENT_IMAGE_URL with your slide image URL -->
-                <img src="/Jeff-scrolly/images/1.jpeg" alt="Description" class="image">
-            </div>
-            <div class="text">
-                <h2>Section Title</h2>
-                <p>Your content here</p>
-            </div>
+<!-- Spread sequence sections -->
+<div class="split-section">
+    <div class="content">
+        <div class="image-container">
+            <img src="/Jeff-scrolly/images/spread-01.jpeg" alt="Initial infection" class="image">
+        </div>
+        <div class="text">
+            <h2>The Beginning</h2>
+            <p>A typical pandemic starts with an infected individual.</p>
         </div>
     </div>
+</div>
 
-    <script>
-        // Scroll animation
-        const observer = new IntersectionObserver(
-            entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                    }
-                });
-            },
-            { threshold: 0.1 }
-        );
+<div class="split-section">
+    <div class="content">
+        <div class="image-container">
+            <img src="/Jeff-scrolly/images/spread-02.jpeg" alt="Symptoms appear" class="image">
+        </div>
+        <div class="text">
+            <h2>Symptoms Emerge</h2>
+            <p>They start having symptoms and become infectious.</p>
+        </div>
+    </div>
+</div>
 
-        // Observe all sections
-        document.querySelectorAll('.full-section, .split-section').forEach(section => {
-            observer.observe(section);
-        });
-    </script>
+<div class="split-section">
+    <div class="content">
+        <div class="image-container">
+            <img src="/Jeff-scrolly/images/spread-03.jpeg" alt="Second infection" class="image">
+        </div>
+        <div class="text">
+            <h2>Spread Begins</h2>
+            <p>Someone else gets infected.</p>
+        </div>
+    </div>
+</div>
+
+<div class="split-section">
+    <div class="content">
+        <div class="image-container">
+            <img src="/Jeff-scrolly/images/spread-04.jpeg" alt="Multiple infections" class="image">
+        </div>
+        <div class="text">
+            <h2>Further Spread</h2>
+            <p>Then a few more.</p>
+        </div>
+    </div>
+</div>
+
+<div class="split-section">
+    <div class="content">
+        <div class="image-container">
+            <img src="/Jeff-scrolly/images/spread-05.jpeg" alt="Symptoms in group" class="image">
+        </div>
+        <div class="text">
+            <h2>Symptoms Spread</h2>
+            <p>Those people start having symptoms and become infectious.</p>
+        </div>
+    </div>
+</div>
+
+<div class="split-section">
+    <div class="content">
+        <div class="image-container">
+            <img src="/Jeff-scrolly/images/spread-06.jpeg" alt="More infections" class="image">
+        </div>
+        <div class="text">
+            <h2>Rapid Growth</h2>
+            <p>More people get infected.</p>
+        </div>
+    </div>
+</div>
+
+<div class="split-section">
+    <div class="content">
+        <div class="image-container">
+            <img src="/Jeff-scrolly/images/spread-07.jpeg" alt="Unusual cases cluster" class="image">
+        </div>
+        <div class="text">
+            <h2>Detection Point</h2>
+            <p>There is now a cluster of unusual cases. Perhaps at this point doctors notice something unusual is happening and raise the alarm.</p>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
